@@ -1,49 +1,37 @@
-# Sound-Activated Timer  
-Author: Cătălin Gabriel Badea  
-Date: 12.01.2025
+# 🎯 Sound-Activated Timer
 
-## 🔧 Project Description
+A practical sound-controlled timer designed to be operated hands-free, ideal for timing physical activities without interrupting motion.  
+Built around an Arduino-compatible microcontroller with a microphone sensor, 7-segment display, LEDs, and buzzer feedback.  
 
-This project presents a practical and hands-free solution to time tracking during physical activities using sound detection.  
-The system acts as a **sound-activated timer**, controlled entirely by **claps or loud sounds**.  
+Developed as a mini project for academic purposes, demonstrating sensor integration and microcontroller control.
 
-It was developed using an **Arduino-compatible microcontroller**, a **microphone sensor**, a **4-digit 7-segment display**, two **LEDs** for visual feedback, and a **buzzer** for audio signals.
+## 🛠️ Technologies Used
 
-Ideal for workouts or tasks where physical interaction with a stopwatch is inconvenient.
+- Arduino-compatible microcontroller (e.g., Arduino Uno)
+- Microphone analog sensor
+- 4-digit 7-segment display
+- LEDs (green and red)
+- Buzzer
+- Arduino IDE (C++)
 
----
+## ⚙️ How It Works
 
-## 🎯 Functional Overview
+1. The microphone detects loud sounds (e.g., claps).
+2. One clap toggles the timer between start and pause states.
+3. Two quick claps reset the timer and trigger an audible high-pitched beep.
+4. The 7-segment display shows elapsed time in minutes and seconds (format `M.SS`).
+5. LEDs indicate timer status: green for running, red for paused.
+6. The buzzer emits short beeps every second and a reset beep when applicable.
 
-- **Start/Stop Timer**: One loud sound (e.g., a clap) toggles between running and paused states.
-- **Reset Timer**: Two quick claps reset the timer and trigger a high-pitch buzzer sound.
-- **Live Time Display**: The 7-segment display shows time in the format `minutes.seconds` (e.g., `2.45` = 2 minutes 45 seconds).
-- **Visual Feedback**:  
-  - Green LED = Timer is active  
-  - Red LED = Timer is paused  
-- **Auditory Feedback**:  
-  - Short beep every second  
-  - High-pitch beep on reset
+This setup allows timing without physical interaction, ideal for workouts or other hands-busy tasks.
 
----
+## 📸 Media
 
-## 📹 Media
+[Watch Demo Video on Google Drive](https://drive.google.com/drive/folders/1r08ukjEGmn38x3a43wrLAsxnVqnwrNJP)
 
-You can watch a short demonstration video of the timer in action [here](https://drive.google.com/drive/folders/1r08ukjEGmn38x3a43wrLAsxnVqnwrNJP).
+## 🤝 Team
 
----
+Developed by:  
+- Cătălin Gabriel Badea
 
-## 🚀 Possible Future Expansions
-
-- Add real-time clock (RTC) module for accurate tracking beyond seconds.
-- Use Bluetooth or Wi-Fi (ESP32) for mobile notifications or remote control.
-- Add OLED display for more compact, modern UI.
-- Include capacitive touch or gesture-based input as an alternative to sound.
-- Use machine learning (TinyML) to distinguish between types of sounds or voice commands.
-
----
-
-📄 **More technical details and wiring diagrams are available in the project documentation.**
-
----
-
+Mini project for university coursework, completed in January 2025.
