@@ -28,6 +28,7 @@ This setup allows timing without physical interaction, ideal for workouts or oth
 ## 📸 Media
 
 [Watch Demo Video on Google Drive](https://drive.google.com/drive/folders/1r08ukjEGmn38x3a43wrLAsxnVqnwrNJP)
+(Actually AI is scary, I made it private. If you are interested, message me :])
 
 ## 🤝 Team
 
